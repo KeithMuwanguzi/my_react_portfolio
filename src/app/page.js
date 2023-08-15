@@ -16,11 +16,11 @@ export default function Home() {
             <li className='text-sm'><a className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white py-2 px-2 rounded-md ml-3' href="#">Resume</a></li>
           </ul>
         </nav>
-        <div className='flex justify-center relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden hover:rounded-lg cursor-pointer'>
-          <Image src={keith} layout=''/>
+        <div className='mx-auto relative bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 overflow-hidden hover:rounded-lg cursor-pointer'>
+          <Image src={keith} layout='' className='mx-auto'/>
         </div>
-        <div className='text-center py-5 px-5'>
-          <h2 className='font-medium py-2 text-teal-700 text-4xl'>
+        <div className='text-center py-5'>
+          <h2 className='flex justify-center text-center font-medium text-teal-700 text-4xl'>
             Muwanguzi Keith Jonathan
           </h2>
           <h3 className='py-2 text-2xl'>
@@ -41,9 +41,12 @@ export default function Home() {
       </section>
       <section className='mt-10'>
         <div>
-          <h3 className='text-xl px-5'>
+          <h3 className='text-xl px-5 font-medium'>
             Services Offered
           </h3>
+          <div>
+            
+          </div>
         </div>
       </section>
 
